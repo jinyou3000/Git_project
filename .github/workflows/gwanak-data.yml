@@ -28,7 +28,7 @@ jobs:
        python "code.py"
     - name: Commits
       run: |
-        git config --local user.name "jinyou3000'
+        git config --local user.name "jinyou3000"
         git config --local user.email "isily1128@gmail.com"
         git add news.json
         git commit -m "Auto - Update data with Scraping"
